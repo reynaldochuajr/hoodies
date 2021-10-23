@@ -195,6 +195,18 @@ p {
     color: white !important;
 }
 
+.btn-secondary-icons {
+    background-color: $secondary !important;
+    border-color: $secondary !important;
+    padding: 10px 15px;
+    font-size: 22px;
+    border-radius: 100px;
+}
+
+.btn-secondary-icons:hover {
+    background-color: #da8986 !important;
+}
+
 // Search Section
 
 .search-box {
@@ -284,4 +296,42 @@ p {
 .card-active {
     filter: drop-shadow(0px 53px 145px rgba(0, 0, 0, 0.07));
     z-index: 500;
+}
+
+// Footer
+
+.footer {
+    margin-top: 100px;
+    background-color: #F4F5F5;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li a {
+    color:$gray-800;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.footer li a:hover {
+    color: $primary;
+}
+
+.footer-icons {
+    color: $gray-900;
+    font-size: 32px;
+}
+
+.footer-icons a {
+    color: $gray-900;
+}
+
+.footer-icons a:hover {
+    color: $primary;
 }
