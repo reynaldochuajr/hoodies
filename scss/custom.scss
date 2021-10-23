@@ -1,0 +1,213 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//custom variables
+
+$primary: #FF3E6D;
+$secondary: #ECA19F;
+
+$gray-500: #F4F5F5;
+$gray-600: #EBECEC;
+$gray-700: #CBCDCE;
+$gray-800: #989C9E;
+$gray-900: #656B6D;
+$black:    #161F22;
+
+// typography
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: $black;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Rufina', serif;
+}
+
+h1 {
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+h2 {
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+h3 {
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.subheading1 {
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.subheading2 {
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.subheading3 {
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.subheading4 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+// Color
+
+.gray-01 {
+    color: $black;
+}
+
+.gray-02 {
+    color: $gray-900;
+}
+
+.gray-03 {
+    color: $gray-800;
+}
+
+.gray-04 {
+    color: $gray-700;
+}
+
+.gray-05 {
+    color: $gray-600;
+}
+
+.gray-06 {
+    color: $gray-500;
+}
+
+
+.primary {
+    color: $primary;
+}
+
+// Navigation
+
+.navbar-light .navbar-nav .nav-link {
+    color: $gray-900;
+    font-size: 18px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: $primary;
+}
+
+.active {
+    color: $primary !important;
+}
+
+.nav-ml {
+    margin-left: 80px;
+}
+
+.nav-icons {
+    font-size: 20px;
+}
+
+.nav-icons:hover {
+    cursor: pointer;
+    color: $primary;
+}
+
+.nav-icons-last {
+    font-size: 24px;
+}
+
+.nav-icons-last:hover {
+    cursor: pointer;
+    color: $primary;
+}
+
+.bg-primary {
+    background-color: $primary !important;
+}
+
+.cart-badge {
+    font-size: 12px;
+    position: relative;
+    top: -14px;
+    left: 32px;
+}
+
+// Hero Image
+
+.hero {
+    height: 80vh;
+}
+
+.bg-hero {
+    background: linear-gradient(180deg, rgba(253, 242, 243, 0) 0%, #FDF2F3 67.45%);
+}
+
+// Buttons
+
+.btn-primary {
+    background-color: $primary !important;
+    border-color: $primary !important;
+    padding: 10px 30px;
+}
+
+.btn-primary:hover {
+    background-color: #db2351 !important;
+}
+
+.btn-outline-secondary {
+    padding: 10px 30px;
+    border-color: $secondary !important;
+    color: $secondary !important;
+    font-weight: 500;
+}
+
+.btn-outline-secondary:hover {
+    background-color:#da8986;
+    color: white !important;
+}
+
+// Search Section
+
+.search-box {
+    margin-top: -80px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 16px;
+    top: 8px;
+    font-size: 18px;
+}
+
+// Products
+
+.section-header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
