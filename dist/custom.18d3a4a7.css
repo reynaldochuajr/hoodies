@@ -11208,6 +11208,10 @@ p {
   color: #FF3E6D;
 }
 
+.secondary {
+  color: #ECA19F;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #656B6D;
   font-size: 18px;
@@ -11287,7 +11291,9 @@ p {
 }
 
 .search-box {
-  margin-top: -80px;
+  margin-top: -116px;
+  box-shadow: 0px 15px 89px rgba(0, 0, 0, 0.04);
+  border: 0;
 }
 
 .search-icon {
@@ -11297,9 +11303,74 @@ p {
   font-size: 18px;
 }
 
+.search-filter, .search-filter:hover, .search-filter:focus, .search-filter:active, .search-filter:focus-visible {
+  background-color: white;
+  border-color: white;
+  color: #161F22;
+  padding: 5px 0;
+  box-shadow: none;
+}
+
+.all-filter {
+  position: absolute;
+  right: 184px;
+}
+
 .section-header {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.sale-badge {
+  background-color: #FF6E92;
+  width: 65px;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+  padding: 3px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.product-heart {
+  font-size: 32px;
+  margin-top: -62px;
+  text-align: end;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.product-heart:hover {
+  color: #FF3E6D;
+}
+
+.nav-pills .nav-link {
+  color: #656B6D;
+  font-size: 25px;
+  margin: 0 40px !important;
+}
+
+.nav-pills .nav-link:hover {
+  color: #ECA19F;
+}
+
+.nav-pills .nav-link.active {
+  color: #656B6D !important;
+  background-color: #ffffff;
+  border: 2px solid #ECA19F;
+  margin: 0 40px !important;
+}
+
+.offers {
+  background: linear-gradient(180deg, rgba(253, 242, 243, 0) -29.29%, #FDF2F3 66.28%);
+  margin-top: 100px;
+  padding-top: 80px;
+}
+
+.card-active {
+  filter: drop-shadow(0px 53px 145px rgba(0, 0, 0, 0.07));
+  z-index: 500;
 }
 
 /*# sourceMappingURL=/custom.18d3a4a7.css.map */

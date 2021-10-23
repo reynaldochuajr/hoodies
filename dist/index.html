@@ -63,7 +63,7 @@
                     <div class="col-6">
                         <div>
                             <h1>New Cocktail <br>Hoodies</h1>
-                            <div class="subheading4 mb-5">Aliquam sit lectus morbi ante duis pellentesque aliquam neque. </div>
+                            <div class="subheading4 mb-5 gray-02">Aliquam sit lectus morbi ante duis<br> pellentesque aliquam neque. </div>
                             <div class="d-flex">
                                 <button type="button" class="btn btn-primary btn-md" style="margin-right: 24px;">SHOP NOW</button>
                                 <button type="button" class="btn btn-outline-secondary btn-md">50% OFF</button>
@@ -78,12 +78,12 @@
         </div>    
     </div>
     <div class="container">
-        <div class="row search-box">
+        <div class="row">
             <div class="col">
-                <div class="card">
-                    <div class="card-body">
+                <div class="card search-box">
+                    <div class="card-body pt-5 pb-5 ps-5 pe-5">
                       <div class="subheading4">
-                        <span>Advance Search</span>
+                        <div class="mb-3">Advance Search</div>
                         <div class="d-flex">
                             <div class="input-group">
                                 <input type="search" class="form-control" placeholder="Search">
@@ -93,19 +93,56 @@
                             </div>
                             <button type="button" class="btn btn-primary btn-md" style="margin-left: 24px;">SEARCH</button>
                         </div>
-                        <div>
-                            <div class="btn-group">
-                                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Small button
+                        <div class="d-flex mt-3">
+                            <div class="btn-group me-5">
+                                <button class="btn btn-secondary dropdown-toggle search-filter" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sort by
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item active" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    <li><a class="dropdown-item" href="#">Recommended</a></li>
+                                    <li><a class="dropdown-item" href="#">Newest</a></li>
+                                    <li><a class="dropdown-item" href="#">Lowest Price</a></li>
+                                    <li><a class="dropdown-item" href="#">Highest Price</a></li>
                                 </ul>
-                              </div>
+                            </div>
+                            <div class="btn-group me-5">
+                                <button class="btn btn-secondary dropdown-toggle search-filter" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Size
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Small</a></li>
+                                    <li><a class="dropdown-item" href="#">Medium</a></li>
+                                    <li><a class="dropdown-item" href="#">Large</a></li>
+                                    <li><a class="dropdown-item" href="#">Extra Large</a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group me-5">
+                                <button class="btn btn-secondary dropdown-toggle search-filter" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Colour
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Black</a></li>
+                                    <li><a class="dropdown-item" href="#">White</a></li>
+                                    <li><a class="dropdown-item" href="#">Pink</a></li>
+                                    <li><a class="dropdown-item" href="#">Red</a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group me-5">
+                                <button class="btn btn-secondary dropdown-toggle search-filter" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Pattern
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Block-coloured</a></li>
+                                    <li><a class="dropdown-item" href="#">Patterned</a></li>
+                                    <li><a class="dropdown-item" href="#">Solid colour</a></li>
+                                    <li><a class="dropdown-item" href="#">Spotted</a></li>
+                                </ul>
+                            </div>
+                            <div class="all-filter">
+                                <button type="button" class="btn">
+                                    <i class="bi bi-sliders"></i> All Filters
+                                </button>
+                            </div>
                         </div>
                       </div>
                     </div>
@@ -114,12 +151,246 @@
         </div>
     </div>
     <div class="container">
-        <div class="text-center section-header">
+        <div class="text-center" style="margin-top: 100px; margin-bottom: 50px;">
             <h1>Our Products</h1>
         </div>
+        <div class="row mb-5">
+            <div class="col d-flex justify-content-center">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">NEW ARRIVAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TOP RATING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BEST SELLER</a>
+                    </li>
+                </ul> 
+            </div>
+        </div>
         <div class="row">
-            <div class="col">
-                
+            <!-- Product 1 -->
+            <div class="col-4">
+                <div class="card mb-5" style="border: none;">
+                    <div style="display: block;">
+                        <img src="/product-1.681f021e.jpg" class="card-img-top" alt="Product 1">
+                        <div class="sale-badge">
+                            <span>-20%</span>
+                        </div>
+                        <div class="product-heart">
+                            <i class="bi bi-suit-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body ps-0 pe-0">
+                      <div class="subheading4 mb-2 mt-3">Hooded top</div>
+                      <div class="d-flex">
+                        <p class="me-3 mb-1 gray-03"><del>PHP 999.00</del></p>
+                        <p class="mb-1">PHP 699.00</p>
+                      </div>
+                      <div class="d-flex">
+                          <img class="me-2" src="/4-reviews.d715aeef.png" width="98" height="24">
+                          <span class="gray-03"><small>(4 reviews)</small></span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-4">
+                <div class="card mb-5" style="border: none;">
+                    <div style="display: block;">
+                        <img src="/product-2.0f699b53.jpg" class="card-img-top" alt="Product 1">
+                        <div class="product-heart primary">
+                            <i class="bi bi-suit-heart-fill"></i>
+                        </div>
+                    </div>
+                    <div class="card-body ps-0 pe-0">
+                      <div class="subheading4 mb-2 mt-3">Cropped zip hoodie</div>
+                      <div class="d-flex">
+                        <p class="mb-1">PHP 650.00</p>
+                      </div>
+                      <div class="d-flex">
+                          <img class="me-2" src="/4-reviews.d715aeef.png" width="98" height="24">
+                          <span class="gray-03"><small>(4 reviews)</small></span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-4">
+                <div class="card mb-5" style="border: none;">
+                    <div style="display: block;">
+                        <img src="/product-3.071c7d80.jpg" class="card-img-top" alt="Product 1">
+                        <div class="product-heart">
+                            <i class="bi bi-suit-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body ps-0 pe-0">
+                      <div class="subheading4 mb-2 mt-3">Waffled zip-through hoodie</div>
+                      <div class="d-flex">
+                        <p class="mb-1">PHP 1,200.00</p>
+                      </div>
+                      <div class="d-flex">
+                          <img class="me-2" src="/5-reviews.28a45729.png" width="98" height="24">
+                          <span class="gray-03"><small>(10 reviews)</small></span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-4 mb-5">
+                <div class="card" style="border: none;">
+                    <div style="display: block;">
+                        <img src="/product-4.3c461005.jpg" class="card-img-top" alt="Product 1">
+                        <div class="product-heart">
+                            <i class="bi bi-suit-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body ps-0 pe-0">
+                      <div class="subheading4 mb-2 mt-3">Cropped through hoodie</div>
+                      <div class="d-flex">
+                        <p class="mb-1">PHP 1,340.00</p>
+                      </div>
+                      <div class="d-flex">
+                          <img class="me-2" src="/5-reviews.28a45729.png" width="98" height="24">
+                          <span class="gray-03"><small>(130 reviews)</small></span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="col-4">
+                <div class="card mb-5" style="border: none;">
+                    <div style="display: block;">
+                        <img src="/product-5.7305311e.jpg" class="card-img-top" alt="Product 1">
+                        <div class="sale-badge">
+                            <span>-50%</span>
+                        </div>
+                        <div class="product-heart">
+                            <i class="bi bi-suit-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body ps-0 pe-0">
+                      <div class="subheading4 mb-2 mt-3">Long zip-through hoodie</div>
+                      <div class="d-flex">
+                        <p class="me-3 mb-1 gray-03"><del>PHP 2,300.00</del></p>
+                        <p class="mb-1">PHP 1,899.00</p>
+                      </div>
+                      <div class="d-flex">
+                          <img class="me-2" src="/4-reviews.d715aeef.png" width="98" height="24">
+                          <span class="gray-03"><small>(234 reviews)</small></span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="col-4">
+                <div class="card mb-5" style="border: none;">
+                    <div style="display: block;">
+                        <img src="/product-6.e9cee528.jpg" class="card-img-top" alt="Product 1">
+                        <div class="product-heart primary">
+                            <i class="bi bi-suit-heart-fill"></i>
+                        </div>
+                    </div>
+                    <div class="card-body ps-0 pe-0">
+                      <div class="subheading4 mb-2 mt-3">Short-sleeved hoodie</div>
+                      <div class="d-flex">
+                        <p class="mb-1">PHP 450.00</p>
+                      </div>
+                      <div class="d-flex">
+                          <img class="me-2" src="/4-reviews.d715aeef.png" width="98" height="24">
+                          <span class="gray-03"><small>(4 reviews)</small></span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <button type="button" class="btn btn-outline-secondary btn-lg">VIEW MORE <i class="bi bi-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promo -->
+    <div class="offers">
+        <div class="container">
+            <div class="row" style="align-items: center;">
+                <div class="col-6">
+                    <img src="/promo-img.c262e535.png" alt="Promo">
+                </div>
+                <div class="col-6" style="padding-left: 130px;">
+                    <h1>Summer<br> Sale Offer!</h1>
+                    <div class="subheading4 mb-5 gray-02">Aliquam sit lectus morbi ante duis pellentesque aliquam neque. </div>
+                    <div class="d-flex">
+                        <button type="button" class="btn btn-primary btn-md" style="margin-right: 24px;">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="container">
+        <div class="row">
+            <div class="col text-center" style="margin-top: 150px; margin-bottom: 50px;">
+                <h1>Our Customer Says</h1>
+                <div class="subheading4 mb-5 gray-02">Aliquam sit lectus morbi ante duis<br> pellentesque aliquam neque. </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="border:0;">
+                    <div class="card-body text-center" style="padding: 40px 50px;">
+                        <img class="mb-4" src="/avatar1.329509d5.png" alt="Customer">
+                        <p class="mb-5 gray-02">
+                            Neque tellus est at sit mollis. Sodales iaculis maecenas gravida non potenti nec.
+                        </p>
+                        <img class="mb-5" src="/lg-reviews.8e4ccc27.png" alt="Customer">
+                        <div class="subheading4 secondary">
+                            John Doe
+                        </div>
+                        <p class="gray-02">Merchandiser, NY</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-active" style="border:0;">
+                    <div class="card-body text-center" style="    padding: 40px 50px;">
+                        <img class="mb-4" src="/avatar2.a2ee7c29.png" alt="Customer">
+                        <p class="mb-5 gray-02">
+                            Quis aenean vel nec auctor imperdiet. Elit ullamcorper eget in convallis. 
+                        </p>
+                        <img class="mb-5" src="/lg-reviews.8e4ccc27.png" alt="Customer">
+                        <div class="subheading4 secondary">
+                            Janice Brown
+                        </div>
+                        <p class="gray-02">Housewife, NY </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="border:0;">
+                    <div class="card-body text-center" style="    padding: 40px 50px;">
+                        <img class="mb-4" src="/avatar3.5aafe621.png" alt="Customer">
+                        <p class="mb-5 gray-02">
+                            Diam ac vestibulum proin eu ultricies scelerisque egestas pharetra, dapibus.
+                        </p>
+                        <img class="mb-5" src="/lg-reviews.8e4ccc27.png" alt="Customer">
+                        <div class="subheading4 secondary">
+                            Ema Watson
+                        </div>
+                        <p class="gray-02">Clerk, NY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center" style="margin-top: 150px; margin-bottom: 50px;">
+                <h1>Get in touch</h1>
+                <div class="subheading4 mb-5 gray-02">Aliquam sit lectus morbi ante duis<br> pellentesque aliquam neque. </div>
             </div>
         </div>
     </div>
